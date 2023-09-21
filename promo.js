@@ -20,7 +20,6 @@ addClient.addEventListener("click", function() {
     cliente.nome = nomeClient.value;
     tabNome.textContent = cliente.nome;
     horario.textContent = dataCompleta;
-    console.log(cliente.nome);
 })
 
 
